@@ -1,0 +1,17 @@
+# Default configuration for a_maze_ing.py
+# Lines starting with '#' are comments.
+
+WIDTH=20
+HEIGHT=15
+ENTRY=0,0
+EXIT=19,14
+OUTPUT_FILE=maze.txt
+PERFECT=True
+
+# Optional keys:
+# SEED makes generation reproducible (same seed -> same maze).
+SEED=42
+# DRAW_PATTERN controls whether the visible "42" pattern is stamped
+# (defaults to True; automatically skipped with a warning if the maze
+# is too small to fit it).
+DRAW_PATTERN=True
